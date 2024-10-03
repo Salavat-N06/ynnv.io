@@ -1,0 +1,37 @@
+body {
+    background-image: url('myimage.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex; /* Используем Flexbox для размещения элементов в строку */
+    align-items: center; /* Центрируем элементы по вертикали */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    padding: 50px; /* Отступы вокруг контейнера */
+    text-align: center;
+}
+
+.text {
+    flex: 1; /* Текст займет доступное пространство */
+}
+
+.text p {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size:larger;
+}
+   
+
+.corner-image {
+    width: 200px; /* Ширина картинки */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+.custom-style {
+    margin-top: 70px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size:larger;
+}
+
